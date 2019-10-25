@@ -1,6 +1,6 @@
 class HelloController {
   async index(req, res) {
-    return res.json({ hello: 'dude'});
+    return res.send('<h1>Hello</h1>');
   }
 }
 
