@@ -8,6 +8,10 @@
     "express": "^4.17.1",
     "sucrase": "^3.10.1"
   },
+  "engines": {
+    "node": "10.16.3",
+    "yarn":"1.19.0"
+  },
   "scripts": {
     "build": "sucrase-node src/server.js",
     "start": "nodemon src/server.js"
